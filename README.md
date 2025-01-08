@@ -1,3 +1,5 @@
+![Nuxoki Screenshot](https://res.cloudinary.com/dpvsklksg/image/upload/Eco-Assets/Screenshot_2025-01-08_at_5.05.32_p.m._eiibo1.png)
+
 # Nuxoki - Nuxt UI Minimal Template
 
 Demo here: https://nuxoki.vercel.app/

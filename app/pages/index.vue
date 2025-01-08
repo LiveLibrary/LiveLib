@@ -76,34 +76,18 @@
 </template>
 
 <script setup>
-/* Delete this and start building your app. Happy coding! */
-import { useIndexStore } from '~/stores';
-
-const { name } = storeToRefs(useIndexStore());
-const toast = useToast();
-
-function openToast() {
-    toast.add({
-        title: 'Hey!',
-        description: 'Hello! You just clicked the button!',
-        color: 'success'
-    })
-    navigateTo('/about')
-}
-/* // */
-
 useSeoMeta({
-    title: "v4.20 | Your Project Title",
-    ogTitle: "v4.20 | Your Project Title",
-    description: "Opinionated Starter Template Minimal, Fast, and Developer-Friendly",
-    ogDescription: "Opinionated Starter Template Minimal, Fast, and Developer-Friendly",
+    title: "Nuxoki | Your Project Title",
+    ogTitle: "Nuxoki | Your Project Title",
+    description: "Elevate your projects with this minimalistic Nuxt 3 template, designed to seamlessly integrate the Flexoxi color palette. Perfect for developers looking to create modern, clean, and visually appealing websites or applications with Nuxt’s powerful features.",
+    ogDescription: "Elevate your projects with this minimalistic Nuxt 3 template, designed to seamlessly integrate the Flexoxi color palette. Perfect for developers looking to create modern, clean, and visually appealing websites or applications with Nuxt’s powerful features.",
     ogImage: "/default-og-image.jpg",
     twitterCard: "summary_large_image",
-    ogUrl: 'https://www.yourproject.com/',
+    ogUrl: 'https://nuxoki.vercel.app/',
     twitterImage: "/default-og-image.jpg",
     twitterCard: "summary_large_image",
-    twitterTitle: "v4.20 | Your Project Title",
-    twitterDescription: "Opinionated Starter Template Minimal, Fast, and Developer-Friendly",
+    twitterTitle: "Nuxoki | Your Project Title",
+    twitterDescription: "Elevate your projects with this minimalistic Nuxt 3 template, designed to seamlessly integrate the Flexoxi color palette. Perfect for developers looking to create modern, clean, and visually appealing websites or applications with Nuxt’s powerful features.",
     ogImageWidth: 1200,
     ogImageHeight: 630,
 });
