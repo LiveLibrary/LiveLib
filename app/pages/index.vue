@@ -1,31 +1,77 @@
 <template>
     <NuxtLayout name="default">
-        <!-- Delete this and start building your app. Happy coding! -->
-        <div class="h-dvh flex items-center justify-center">
-            <div class="flex flex-col items-center justify-center gap-y-4 w-full mx-auto md:w-1/3">
-                <div class="size-12">
-                    <AppLogo />
-                </div>
-                <h1 class="font-extrabold text-5xl text-dark-900 font-family-instrument italic dark:text-dark-50">v4.20
-                </h1>
-                <p class="font-normal text-base text-center text-dark-900/60 dark:text-dark-50/60">
-                    Opinionated Starter Template
-                    <br>
-                    Minimal, Fast, and Developer-Friendly
-                </p>
-                <div class="w-full flex items-center justify-center gap-2">
+        <div class="w-full h-dvh flex items-center justify-center">
+            <div class="flex flex-col justify-center items-center gap-y-4">
+                <div>
                     <AppSwitchMode />
                     <AppSwitchPrimaryColor />
                 </div>
-                <div class="flex flex-col items-center gap-y-4 w-full">
-                    <UInput v-model="name" label="Name" placeholder="Name" />
-                    <UButton @click="openToast" variant="solid" color="primary">
-                        Enter
+                <div class="flex flex-wrap gap-4">
+                    <UButton variant="solid">
+                        Flexoki
                     </UButton>
+                    <UButton variant="subtle">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="outline">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="ghost">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="soft">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="link">
+                        Flexoki
+                    </UButton>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <UBadge color="primary" variant="solid">Badge</UBadge>
+                    <UBadge color="primary" variant="subtle">Badge</UBadge>
+                    <UBadge color="primary" variant="soft">Badge</UBadge>
+                    <UBadge color="primary" variant="outline">Badge</UBadge>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <UCheckbox color="primary" default-value />
+
+                    <USwitch color="primary" default-value />
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <UButton variant="solid" color="neutral">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="subtle" color="neutral">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="outline" color="neutral">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="ghost" color="neutral">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="soft" color="neutral">
+                        Flexoki
+                    </UButton>
+                    <UButton variant="link" color="neutral">
+                        Flexoki
+                    </UButton>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <UBadge color="neutral" variant="solid">Badge</UBadge>
+                    <UBadge color="neutral" variant="subtle">Badge</UBadge>
+                    <UBadge color="neutral" variant="soft">Badge</UBadge>
+                    <UBadge color="neutral" variant="outline">Badge</UBadge>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <UCheckbox color="neutral" default-value />
+                    <USwitch color="neutral" default-value />
+                </div>
+                <div class="w-full relative">
+                    <FlexokiPalette />
                 </div>
             </div>
         </div>
-        <!-- // -->
     </NuxtLayout>
 </template>
 
