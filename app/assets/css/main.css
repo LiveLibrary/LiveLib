@@ -7,6 +7,7 @@
   --font-family-inter: "Inter", sans-serif;
   --font-family-instrument: "Instrument Serif", serif;
 
+  /* Colors by Flexoki -> stephango.com/flexoki */
   --flexoki-black: #100F0F;
   --flexoki-paper: #FFFCF0;
   --flexoki-base-50: #F2F0E5;
@@ -148,8 +149,9 @@
   --flexoki-magenta-850: #4F1B39;
   --flexoki-magenta-900: #39172B;
   --flexoki-magenta-950: #24131D;
+}
 
-  
+:root{
   --color-primary-50: var(--ui-color-primary-50);
   --color-primary-100: var(--ui-color-primary-100);
   --color-primary-200: var(--ui-color-primary-200);
@@ -165,18 +167,6 @@
   --color-black: var(--flexoki-black);
   --color-white: var(--flexoki-paper);
 
-  --color-dark-50: var(--flexoki-base-50);
-  --color-dark-100: var(--flexoki-base-100);
-  --color-dark-200: var(--flexoki-base-200);
-  --color-dark-300: var(--flexoki-base-300);
-  --color-dark-400: var(--flexoki-base-400);
-  --color-dark-500: var(--flexoki-base-500);
-  --color-dark-600: var(--flexoki-base-600);
-  --color-dark-700: var(--flexoki-base-700);
-  --color-dark-800: var(--flexoki-base-800);
-  --color-dark-900: var(--flexoki-base-900);
-  --color-dark-950: var(--flexoki-base-950);
-
   --ui-color-neutral-50: var(--flexoki-base-50);
   --ui-color-neutral-100: var(--flexoki-base-100);
   --ui-color-neutral-200: var(--flexoki-base-200);
@@ -188,6 +178,20 @@
   --ui-color-neutral-800: var(--flexoki-base-800);
   --ui-color-neutral-900: var(--flexoki-base-900);
   --ui-color-neutral-950: var(--flexoki-base-950);
+
+  
+  --color-neutral-50: var(--flexoki-base-50);
+  --color-neutral-100: var(--flexoki-base-100);
+  --color-neutral-200: var(--flexoki-base-200);
+  --color-neutral-300: var(--flexoki-base-300);
+  --color-neutral-400: var(--flexoki-base-400);
+  --color-neutral-500: var(--flexoki-base-500);
+  --color-neutral-600: var(--flexoki-base-600);
+  --color-neutral-700: var(--flexoki-base-700);
+  --color-neutral-800: var(--flexoki-base-800);
+  --color-neutral-900: var(--flexoki-base-900);
+  --color-neutral-950: var(--flexoki-base-950);
+
 
   --color-red-50: var(--flexoki-red-50);
   --color-red-100: var(--flexoki-red-100);
@@ -273,18 +277,17 @@
   --color-purple-900: var(--flexoki-purple-900);
   --color-purple-950: var(--flexoki-purple-950);
   
-  --color-magenta-50: var(--flexoki-magenta-50);
-  --color-magenta-100: var(--flexoki-magenta-100);
-  --color-magenta-200: var(--flexoki-magenta-200);
-  --color-magenta-300: var(--flexoki-magenta-300);
-  --color-magenta-400: var(--flexoki-magenta-400);
-  --color-magenta-500: var(--flexoki-magenta-500);
-  --color-magenta-600: var(--flexoki-magenta-600);
-  --color-magenta-700: var(--flexoki-magenta-700);
-  --color-magenta-800: var(--flexoki-magenta-800);
-  --color-magenta-900: var(--flexoki-magenta-900);
-  --color-magenta-950: var(--flexoki-magenta-950);
-
+  --color-rose-50: var(--flexoki-magenta-50);
+  --color-rose-100: var(--flexoki-magenta-100);
+  --color-rose-200: var(--flexoki-magenta-200);
+  --color-rose-300: var(--flexoki-magenta-300);
+  --color-rose-400: var(--flexoki-magenta-400);
+  --color-rose-500: var(--flexoki-magenta-500);
+  --color-rose-600: var(--flexoki-magenta-600);
+  --color-rose-700: var(--flexoki-magenta-700);
+  --color-rose-800: var(--flexoki-magenta-800);
+  --color-rose-900: var(--flexoki-magenta-900);
+  --color-rose-950: var(--flexoki-magenta-950);
 }
 
 /* For Testing purposes */

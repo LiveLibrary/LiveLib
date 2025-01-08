@@ -5,17 +5,17 @@
             <div class="size-12 bg-white" />
         </div>
         <div>
-            <div class="size-12 bg-dark-50" />
-            <div class="size-12 bg-dark-100" />
-            <div class="size-12 bg-dark-200" />
-            <div class="size-12 bg-dark-300" />
-            <div class="size-12 bg-dark-400" />
-            <div class="size-12 bg-dark-500" />
-            <div class="size-12 bg-dark-600" />
-            <div class="size-12 bg-dark-700" />
-            <div class="size-12 bg-dark-800" />
-            <div class="size-12 bg-dark-900" />
-            <div class="size-12 bg-dark-950" />
+            <div class="size-12 bg-neutral-50" />
+            <div class="size-12 bg-neutral-100" />
+            <div class="size-12 bg-neutral-200" />
+            <div class="size-12 bg-neutral-300" />
+            <div class="size-12 bg-neutral-400" />
+            <div class="size-12 bg-neutral-500" />
+            <div class="size-12 bg-neutral-600" />
+            <div class="size-12 bg-neutral-700" />
+            <div class="size-12 bg-neutral-800" />
+            <div class="size-12 bg-neutral-900" />
+            <div class="size-12 bg-neutral-950" />
         </div>
         <div>
             <div class="size-12 bg-red-50" />
@@ -109,17 +109,17 @@
             <div class="size-12 bg-purple-950" />
         </div>
         <div>
-            <div class="size-12 bg-magenta-50" />
-            <div class="size-12 bg-magenta-100" />
-            <div class="size-12 bg-magenta-200" />
-            <div class="size-12 bg-magenta-300" />
-            <div class="size-12 bg-magenta-400" />
-            <div class="size-12 bg-magenta-500" />
-            <div class="size-12 bg-magenta-600" />
-            <div class="size-12 bg-magenta-700" />
-            <div class="size-12 bg-magenta-800" />
-            <div class="size-12 bg-magenta-900" />
-            <div class="size-12 bg-magenta-950" />
+            <div class="size-12 bg-rose-50" />
+            <div class="size-12 bg-rose-100" />
+            <div class="size-12 bg-rose-200" />
+            <div class="size-12 bg-rose-300" />
+            <div class="size-12 bg-rose-400" />
+            <div class="size-12 bg-rose-500" />
+            <div class="size-12 bg-rose-600" />
+            <div class="size-12 bg-rose-700" />
+            <div class="size-12 bg-rose-800" />
+            <div class="size-12 bg-rose-900" />
+            <div class="size-12 bg-rose-950" />
         </div>
     </div>
 </template>

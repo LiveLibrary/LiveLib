@@ -1,26 +1,32 @@
-# v4.20: The Ultimate Opinionated Nuxt 3 Starter Template
+# Nuxoki - Nuxt UI Minimal Template
 
-Minimal, blazing fast, and designed with developers in mind, v4.20 is your go-to starting point for modern web projects.
+Demo here: https://nuxoki.vercel.app/
 
-## Built on cutting-edge technologies:
+A minimal and sleek Nuxt 3 template designed to seamlessly integrate the **Flexoxi color palette**, perfect for developers looking to create clean, fast, and visually stunning web projects. This template leverages Nuxt 3's power to deliver an optimized and modern development experience while showcasing the vibrant Flexoxi colors.
 
-- Nuxt 3 for powerful, streamlined development.
-- Nuxt UI v3 for customizable and sleek UI components.
-- Pinia for state management simplicity.
-- Tailwind CSS v4 for responsive and modern design.
-- Fully compatible with the Nuxt v4 folder structure, this template ensures you're ready for the future of web development.
+## Built with Nuxt 3 and the Flexoxi Color Palette:
 
-Get started today with v4.20 and build faster, smarter, and better!
+- **Nuxt UI v3** for a better development and UX.
+- **Nuxt 3** for a streamlined development experience with server-side rendering (SSR).
+- **Flexoxi Color Palette** integration for vibrant and modern color choices.
+- **Tailwind CSS** for a responsive and clean design.
+- **Pinia** for simple and effective state management.
+- Fully compatible with Nuxt v4 modern folder structure for better scalability and maintenance.
+
+For more information about Nuxt 3, visit the [official Nuxt website](https://nuxt.com).
+
+For more information about Flexoxi, visit the [official Flexoxi website](https://stephango.com/flexoki).
 
 ## Features
 
-- Nuxt 3
+- Nuxt UI v3 to leverage the theme
+- Nuxt 3 with SSR support
+- Flexoxi color palette integration
 - Pinia for state management
-- Tailwind CSS for styling
+- Tailwind CSS for styling and responsiveness
+- Minimal and clean design
+- SEO-ready with meta tags
 - Dark mode support
-- Primary color switcher
-- SEO meta tags
-- Responsive design
 
 ## Project Setup
 
@@ -34,8 +40,8 @@ Get started today with v4.20 and build faster, smarter, and better!
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/{username}/v420.git
-    cd v420
+    git clone https://github.com/{username}/nuxoki.git
+    cd nuxoki
     ```
 
 2. Install dependencies:
@@ -105,7 +111,8 @@ if (import.meta.hot) {
 
 - `AppLogo`: Displays the application logo.
 - `AppSwitchMode`: Toggles between dark and light mode.
-- `AppSwitchPrimaryColor`: Switches the primary color theme.
+- `AppSwitchPrimaryColor`: Switches the primary color theme to the Flexoxi palette.
+- `FlexokiPalette`: Elements tho show all colors.
 
 ### Pages
 

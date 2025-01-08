@@ -63,9 +63,9 @@ const items = [
     ],
 ];
 
-const primaryColors = ['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'purple', 'magenta']
+const primaryColors = ['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'purple', 'rose']
 
-const neutralColors = ['dark']
+const neutralColors = ['neutral']
 
 const appConfig = useAppConfig();
 
