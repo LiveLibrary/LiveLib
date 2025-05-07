@@ -2,6 +2,7 @@
   "name": "catlib",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@10.7.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -12,7 +13,7 @@
   "dependencies": {
     "@astrojs/starlight": "^0.34.2",
     "astro": "^5.6.1",
-    "sharp": "^0.32.5",
+    "sharp": "^0.32.6",
     "starlight-theme-flexoki": "^0.1.0"
   }
 }

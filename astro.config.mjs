@@ -5,6 +5,7 @@ import starlightThemeFlexoki from "starlight-theme-flexoki";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://catlib.lushisang.com",
   integrations: [
     starlight({
       plugins: [starlightThemeFlexoki()],
