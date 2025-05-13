@@ -13,12 +13,12 @@ export default defineConfig({
   integrations: [
     starlight({
       plugins: [starlightThemeFlexoki()],
-      title: "My Docs",
+      title: "🧚‍♂️逍遥书院",
       social: [
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/withastro/starlight",
+          href: "https://github.com/andyluss/lib",
         },
       ],
       sidebar: [
