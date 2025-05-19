@@ -23,15 +23,12 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
-          ],
+          label: "逍遥猫",
+          autogenerate: { directory: "livecat" },
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "范式",
+          autogenerate: { directory: "paradigms" },
         },
       ],
     }),
