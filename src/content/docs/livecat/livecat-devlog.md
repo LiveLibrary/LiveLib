@@ -2,12 +2,6 @@
 title: LiveCat开发日志
 date: 2024-12-01
 updated: 2025-03-13
-path: livecat-devlog
-taxonomies:
-  categories: [开发日志]
-  tags: [🐈逍遥猫]
-extra:
-  toc_gen: true
 level: 2
 top: 2
 ---

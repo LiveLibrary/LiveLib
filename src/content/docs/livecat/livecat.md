@@ -2,9 +2,6 @@
 title: 🐈逍遥猫三猫书院🏡
 date: 2024-08-05
 updated: 2025-04-21
-path: livecat
-taxonomies:
-  tags: [🐈逍遥猫]
 level: 3
 top: 5
 ---
