@@ -13,7 +13,7 @@ export default defineConfig({
   integrations: [
     starlight({
       plugins: [starlightThemeFlexoki()],
-      title: "🧚‍♂️逍遥书院🏡",
+      title: "🧚‍♂️逍遥书院📚",
       social: [
         {
           icon: "github",
