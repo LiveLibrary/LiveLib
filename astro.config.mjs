@@ -2,17 +2,18 @@
 import { defineConfig, passthroughImageService } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightThemeFlexoki from "starlight-theme-flexoki";
+import starlightBlog from "starlight-blog";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://catlib.lushisang.com",
+  site: "https://lib.lushisang.com",
   image: {
     // See https://docs.astro.build/zh-cn/reference/errors/missing-sharp/
     service: passthroughImageService(),
   },
   integrations: [
     starlight({
-      plugins: [starlightThemeFlexoki()],
+      plugins: [starlightThemeFlexoki(), starlightBlog()],
       title: "🧚‍♂️逍遥书院📚",
       social: [
         {
