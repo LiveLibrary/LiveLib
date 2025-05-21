@@ -13,7 +13,7 @@ export default defineConfig({
   integrations: [
     starlight({
       plugins: [starlightThemeFlexoki()],
-      title: "🧚‍♂️逍遥书院",
+      title: "🧚‍♂️逍遥书院🏡",
       social: [
         {
           icon: "github",
@@ -23,7 +23,7 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "逍遥猫",
+          label: "逍遥猫项目",
           autogenerate: { directory: "livecat" },
         },
         {
