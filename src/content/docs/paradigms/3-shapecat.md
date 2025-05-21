@@ -1,9 +1,7 @@
 ---
 title: 范式3：🐈缘形猫ShapeCat-模型猫ModelCat
 description: 建模世界，可视化数据、信息与关系等，更灵活地聚焦关键信息，辅助分析、决策与学习等
-date: 2025-04-11
-level: 2
-top: 1
+publishDate: 2025-04-11
 ---
 
 参考[【💡缘形：将关系可视化】](/lab/20250322-relation-shape)。
