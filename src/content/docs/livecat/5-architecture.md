@@ -11,4 +11,4 @@ publishDate: 2025-05-23
 3. 自动。这代表架构有较大的自动化反应能力，以更好地处理异常与反馈错误。
 4. 流式系统。这代表大多数变化可以实时或快速响应到相关层次和模块。
 
-大体上是基于 [T3 Stack](https://create.t3.gg) 改编扩充的。
+大体上，基于 [T3 Stack](https://create.t3.gg) 改编扩充，参考 [Homarr](https://homarr.dev) 的前端功能设计与技术栈如 Mantine、Gridstack。
