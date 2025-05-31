@@ -15,6 +15,7 @@ export default defineConfig({
     starlight({
       plugins: [starlightThemeFlexoki(), starlightBlog()],
       title: "🧚‍♂️逍遥书院📚",
+      lastUpdated: true,
       social: [
         {
           icon: "github",

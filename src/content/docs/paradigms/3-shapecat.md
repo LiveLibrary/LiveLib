@@ -4,7 +4,7 @@ description: 建模世界，可视化数据、信息与关系等，更灵活地�
 publishDate: 2025-04-11
 ---
 
-参考[【💡缘形：将关系可视化】](/lab/20250322-relation-shape)。
+参考[【💡缘形：将关系可视化】](https://lab.lushisang.com/posts/20250322-relation-shape)。
 
 用模型思维认识与建模整个世界，形成事实空间的模型聚类，并以此作为基础来改造世界，实现梦想空间里的梦想模型。
 
