@@ -3,6 +3,8 @@ import { defineConfig, passthroughImageService } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightThemeFlexoki from "starlight-theme-flexoki";
 import starlightBlog from "starlight-blog";
+import starlightUtils from "@lorenzo_lewis/starlight-utils";
+import starlightLinksValidator from "starlight-links-validator";
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,7 +15,12 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      plugins: [starlightThemeFlexoki(), starlightBlog()],
+      plugins: [
+        starlightThemeFlexoki(),
+        starlightBlog(),
+        starlightUtils(),
+        starlightLinksValidator(),
+      ],
       title: "🧚‍♂️逍遥书院📚",
       lastUpdated: true,
       social: [

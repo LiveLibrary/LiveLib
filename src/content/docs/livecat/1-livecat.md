@@ -1,7 +1,7 @@
 ---
 title: 【🐈逍遥猫】与【🧚‍♂️逍遥书院📚】
 publishDate: 2024-08-05
-updatedDate: 2025-05-31
+updatedDate: 2025-06-01
 ---
 
 把之前的逍遥游、AI 智能萌宠、数字人、数码体验等想法整合一下，加上笔记、博客等，就是传说中的大杂烩[🌸数字花园](/livecat/3-digital-garden)。
@@ -29,8 +29,6 @@ updatedDate: 2025-05-31
 4. 范式4：[【🍑桃熊猫PeachPanda】](/paradigms/4-peachpanda)。
 5. 范式5：[【🐣鼓励鸡PepChick】](/paradigms/5-pepchick)。专注鼓励的范式。
 6. 范式6：[【🌸梦幻桃源】](/paradigms/6-dream-xanadu)。梦幻游戏开发。
-
-上面的分析总体上比较抽象，如果更具体一些，简单讲就是做各种数据的表现，我称之为[【数壳】](https://lab.lushisang.com/posts/20250530-multidimensional-data-shell/)。
 
 可以模仿苹果公司，固定每年出新一代，比如【逍遥猫2025】、【逍遥猫2026】等。至于每年新增功能和改进，则看情况决定。
 

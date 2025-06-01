@@ -11,6 +11,9 @@ importers:
       '@astrojs/starlight':
         specifier: ^0.34.2
         version: 0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))
+      '@lorenzo_lewis/starlight-utils':
+        specifier: ^0.3.2
+        version: 0.3.2(@astrojs/starlight@0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3)))(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))
       astro:
         specifier: ^5.6.1
         version: 5.7.11(rollup@4.40.2)(typescript@5.8.3)
@@ -20,6 +23,9 @@ importers:
       starlight-blog:
         specifier: ^0.23.2
         version: 0.23.2(@astrojs/starlight@0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3)))(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))
+      starlight-links-validator:
+        specifier: ^0.16.0
+        version: 0.16.0(@astrojs/starlight@0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3)))
       starlight-theme-flexoki:
         specifier: ^0.1.0
         version: 0.1.0(@astrojs/starlight@0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3)))
@@ -361,6 +367,12 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
+  '@lorenzo_lewis/starlight-utils@0.3.2':
+    resolution: {integrity: sha512-9GCZLyfIUTkXuE39jHjcCSwnOzm6hSGnC8DrHlo2imegiZmZSdG0eBMA/sTb/shLkvCzE2SGCaKM+EwIeO6oDw==}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.32.0'
+      astro: '>=5'
+
   '@mdx-js/mdx@3.1.0':
     resolution: {integrity: sha512-/QxEhPAvGwbQmy1Px8F899L5Uc2KZ6JtXwlCgJmjSTBedwOZkByYcBG4GceIGPXRDsmfxhHazuS+hlOShRLeDw==}
 
@@ -558,6 +570,9 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
+  '@types/picomatch@3.0.2':
+    resolution: {integrity: sha512-n0i8TD3UDB7paoMMxA3Y65vUncFJXjcUf7lQY7YyKGl6031FNjfsLs6pdLFCy2GNFxItPJG8GvvpbZc2skH7WA==}
+
   '@types/sax@1.2.7':
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
 
@@ -612,6 +627,10 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
+  ast-types@0.16.1:
+    resolution: {integrity: sha512-6t10qk83GOG8p0vKmaCr8eiilZwO171AvbROMtvvNiwrTly62t+7XkA8RdIIVbpMhCASAsxgAzdRSwh6nw/5Dg==}
+    engines: {node: '>=4'}
+
   astring@1.9.0:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
@@ -620,6 +639,11 @@ packages:
     resolution: {integrity: sha512-HN0jWTnhr7mIV/2e6uu4PPRNNo/k4UEgTLZqbp3MrHU+caCARveG2yZxaZVBmxyiVdYqW5Pd3u3n2zjnshixbw==}
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
+
+  astro-integration-kit@0.18.0:
+    resolution: {integrity: sha512-Z0QW5IQjosuKQDEGYYkvUX6EhEtrmE4/oViqWz23QveV8U7AuyFsTdg00WRNPevWZl/5a4lLUeDpv4bCRynRRg==}
+    peerDependencies:
+      astro: ^4.12.0 || ^5.0.0
 
   astro-remote@0.3.4:
     resolution: {integrity: sha512-jL5skNQLA0YBc1R3bVGXyHew3FqGqsT7AgLzWAVeTLzFkwVMUYvs4/lKJSmS7ygcF1GnHnoKG6++8GL9VtWwGQ==}
@@ -892,6 +916,11 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
+  esprima@4.0.1:
+    resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
+    engines: {node: '>=4'}
+    hasBin: true
+
   estree-util-attach-comments@3.0.0:
     resolution: {integrity: sha512-cKUwm/HUcTDsYh/9FgnuFqpfquUbwIqwKM26BVCGDPVgvaCl/nDCCjUfiLlx6lsEZ3Z4RFxNbOQ60pkaEwFxGw==}
 
@@ -1067,6 +1096,10 @@ packages:
 
   iron-webcrypto@1.2.1:
     resolution: {integrity: sha512-feOM6FaSr6rEABp/eDfVseKyTMDt+KGpeB35SkVn9Tyn0CqvVsY3EwI0v5i8nMHyJnzCIQf7nsy3p41TPkJZhg==}
+
+  is-absolute-url@4.0.1:
+    resolution: {integrity: sha512-/51/TKE88Lmm7Gc4/8btclNXWS+g50wXhYJq8HWIBAGUBnoAdRu1aXeh364t/O7wXDAcTJDP8PNuNKWUDWie+A==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   is-alphabetical@2.0.1:
     resolution: {integrity: sha512-FWyyY60MeTNyeSRpkM2Iry0G9hpr7/9kD40mD/cGQEuilcZYS4okz8SN2Q6rLCJ8gbCt6fN+rC+6tMGS99LaxQ==}
@@ -1437,6 +1470,9 @@ packages:
   parse5@7.3.0:
     resolution: {integrity: sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==}
 
+  pathe@1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
+
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
@@ -1498,6 +1534,10 @@ packages:
   readdirp@4.1.2:
     resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
     engines: {node: '>= 14.18.0'}
+
+  recast@0.23.11:
+    resolution: {integrity: sha512-YTUo+Flmw4ZXiWfQKGcwwc11KnoRAYgzAE2E7mXKCjSviTKShtxBsN6YUUBB2gtaBzKzeKunxhUwNHQuRryhWA==}
+    engines: {node: '>= 4'}
 
   recma-build-jsx@1.0.0:
     resolution: {integrity: sha512-8GtdyqaBcDfva+GUKDr3nev3VpKAhup1+RvkMvUxURHpW7QyIvk9F5wz7Vzo06CEMSilw6uArgRqhpiUcWp8ew==}
@@ -1634,6 +1674,10 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
+  source-map@0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
+    engines: {node: '>=0.10.0'}
+
   source-map@0.7.4:
     resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
     engines: {node: '>= 8'}
@@ -1646,6 +1690,12 @@ packages:
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.33.0'
+
+  starlight-links-validator@0.16.0:
+    resolution: {integrity: sha512-wInToor19C7UxhesPuxTBIhB1LH1wzNQHD4HaumfcB+yFhg5u80yQEnkZDrABHrUEEEwFm//NoZbWhnUj1m2ug==}
+    engines: {node: '>=18.17.1'}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.32.0'
 
   starlight-theme-flexoki@0.1.0:
     resolution: {integrity: sha512-GVuzDN1UJLf6fIb5okqQ2t//DfN0+xWsFeFT3asf6waRvFxdyCFNfVHX9NxOr5fTb2EJmH0LCFlT8rxjB56uKg==}
@@ -1712,6 +1762,9 @@ packages:
 
   tiny-inflate@1.0.3:
     resolution: {integrity: sha512-pkY1fj1cKHb2seWDy0B16HeWyczlJA9/WW3u3c4z/NiWDsO3DOU5D7nhTLE9CF0yXv/QZFY7sEJmj24dK+Rrqw==}
+
+  tiny-invariant@1.3.3:
+    resolution: {integrity: sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==}
 
   tinyexec@0.3.2:
     resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
@@ -2302,6 +2355,12 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
+  '@lorenzo_lewis/starlight-utils@0.3.2(@astrojs/starlight@0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3)))(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))':
+    dependencies:
+      '@astrojs/starlight': 0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))
+      astro: 5.7.11(rollup@4.40.2)(typescript@5.8.3)
+      astro-integration-kit: 0.18.0(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))
+
   '@mdx-js/mdx@3.1.0(acorn@8.14.1)':
     dependencies:
       '@types/estree': 1.0.7
@@ -2486,6 +2545,8 @@ snapshots:
 
   '@types/node@17.0.45': {}
 
+  '@types/picomatch@3.0.2': {}
+
   '@types/sax@1.2.7':
     dependencies:
       '@types/node': 17.0.45
@@ -2525,12 +2586,22 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
+  ast-types@0.16.1:
+    dependencies:
+      tslib: 2.8.1
+
   astring@1.9.0: {}
 
   astro-expressive-code@0.41.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3)):
     dependencies:
       astro: 5.7.11(rollup@4.40.2)(typescript@5.8.3)
       rehype-expressive-code: 0.41.2
+
+  astro-integration-kit@0.18.0(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3)):
+    dependencies:
+      astro: 5.7.11(rollup@4.40.2)(typescript@5.8.3)
+      pathe: 1.1.2
+      recast: 0.23.11
 
   astro-remote@0.3.4:
     dependencies:
@@ -2884,6 +2955,8 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
+  esprima@4.0.1: {}
+
   estree-util-attach-comments@3.0.0:
     dependencies:
       '@types/estree': 1.0.7
@@ -3193,6 +3266,8 @@ snapshots:
   inline-style-parser@0.2.4: {}
 
   iron-webcrypto@1.2.1: {}
+
+  is-absolute-url@4.0.1: {}
 
   is-alphabetical@2.0.1: {}
 
@@ -3831,6 +3906,8 @@ snapshots:
     dependencies:
       entities: 6.0.0
 
+  pathe@1.1.2: {}
+
   picocolors@1.1.1: {}
 
   picomatch@2.3.1: {}
@@ -3900,6 +3977,14 @@ snapshots:
       util-deprecate: 1.0.2
 
   readdirp@4.1.2: {}
+
+  recast@0.23.11:
+    dependencies:
+      ast-types: 0.16.1
+      esprima: 4.0.1
+      source-map: 0.6.1
+      tiny-invariant: 1.3.3
+      tslib: 2.8.1
 
   recma-build-jsx@1.0.0:
     dependencies:
@@ -4177,6 +4262,8 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
+  source-map@0.6.1: {}
+
   source-map@0.7.4: {}
 
   space-separated-tokens@2.0.2: {}
@@ -4196,6 +4283,22 @@ snapshots:
       unist-util-visit: 5.0.0
     transitivePeerDependencies:
       - astro
+      - supports-color
+
+  starlight-links-validator@0.16.0(@astrojs/starlight@0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))):
+    dependencies:
+      '@astrojs/starlight': 0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))
+      '@types/picomatch': 3.0.2
+      github-slugger: 2.0.0
+      hast-util-from-html: 2.0.3
+      hast-util-has-property: 3.0.0
+      is-absolute-url: 4.0.1
+      kleur: 4.1.5
+      mdast-util-mdx-jsx: 3.2.0
+      mdast-util-to-string: 4.0.0
+      picomatch: 4.0.2
+      unist-util-visit: 5.0.0
+    transitivePeerDependencies:
       - supports-color
 
   starlight-theme-flexoki@0.1.0(@astrojs/starlight@0.34.2(astro@5.7.11(rollup@4.40.2)(typescript@5.8.3))):
@@ -4288,6 +4391,8 @@ snapshots:
       b4a: 1.6.7
 
   tiny-inflate@1.0.3: {}
+
+  tiny-invariant@1.3.3: {}
 
   tinyexec@0.3.2: {}
 
