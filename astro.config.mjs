@@ -39,6 +39,10 @@ export default defineConfig({
           label: "范式",
           autogenerate: { directory: "paradigms" },
         },
+        {
+          label: "超卡",
+          autogenerate: { directory: "cards" },
+        },
       ],
     }),
   ],
