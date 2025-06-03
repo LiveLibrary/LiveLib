@@ -2,21 +2,25 @@
   "name": "lib",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977",
+  "packageManager": "pnpm@10.11.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "up": "npx taze major -I"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.34.2",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/starlight": "^0.34.3",
     "@lorenzo_lewis/starlight-utils": "^0.3.2",
-    "astro": "^5.6.1",
-    "sharp": "^0.32.6",
+    "astro": "^5.8.1",
+    "sharp": "^0.34.2",
     "starlight-blog": "^0.23.2",
     "starlight-links-validator": "^0.16.0",
-    "starlight-theme-flexoki": "^0.1.0"
+    "starlight-theme-flexoki": "^0.1.0",
+    "taze": "^19.1.0",
+    "typescript": "^5.8.3"
   }
 }
