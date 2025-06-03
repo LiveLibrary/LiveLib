@@ -1,8 +1,8 @@
 ---
 title: 🏰总体架构：逍遥机
-description: 可编程多层多块自动流式数壳
+description: 可编程多层多块自动流式数据壳
 publishDate: 2025-05-23
-updatedDate: 2025-06-02
+updatedDate: 2025-06-03
 ---
 
 逍遥书院的总体技术架构叫【逍遥机】，是可编程多层多块自动流式系统架构。
@@ -13,6 +13,6 @@ updatedDate: 2025-06-02
 4. 自动：稳健性容错性。这代表架构有较大的自动化反应能力，以更好地处理异常、反馈错误、自动扩容等。
 5. 绑定：流式响应式。这代表大多数相关值，包括跨层次模块的，可以流式实时快速响应，。
 
-简单讲就是系统化处理各种数据与内容的扩展与表现，可称之为[【数壳】](https://lab.lushisang.com/posts/20250530-multidimensional-data-shell/)。
+简单讲就是系统化处理各种数据与内容的扩展与表现，可称之为[【数据壳】](/livecat/6-data-shell)。
 
 大体上，基于 [T3 Stack](https://create.t3.gg) 改编扩充，参考 [Homarr](https://homarr.dev) 的前端功能设计与技术栈如 Mantine、Gridstack。
