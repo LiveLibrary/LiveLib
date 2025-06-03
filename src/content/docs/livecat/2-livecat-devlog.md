@@ -423,7 +423,7 @@ updatedDate: 2025-05-22
 
 #### 20250212 周三
 
-- 【任务 1-6】思考研究 LiveStack 相关。结果：[《轻灵堆栈 LiveStack》](/lab/20250127-live-stack/)。
+- 【任务 1-6】思考研究 LiveStack 相关。结果：[《轻灵堆栈 LiveStack》](https://lab.lushisang.com/posts/20250127-live-stack/)。
 
 #### 20250211 周二
 
