@@ -1,5 +1,5 @@
 ---
-title: 数据细胞
+title: 🪺数据细胞
 description: 数据模型及其交互外壳
 publishDate: 2025-05-30
 updatedDate: 2025-06-03

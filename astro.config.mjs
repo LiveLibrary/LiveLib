@@ -36,12 +36,12 @@ export default defineConfig({
           autogenerate: { directory: "livecat" },
         },
         {
-          label: "范式",
-          autogenerate: { directory: "paradigms" },
+          label: "数据细胞",
+          autogenerate: { directory: "cell" },
         },
         {
-          label: "超卡",
-          autogenerate: { directory: "cards" },
+          label: "范式",
+          autogenerate: { directory: "paradigms" },
         },
       ],
     }),

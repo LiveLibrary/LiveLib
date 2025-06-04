@@ -1,0 +1,24 @@
+---
+title: 卡盒架构
+publishDate: 2024-07-25
+updatedDate: 2025-05-27
+---
+
+人类可能[不喜欢无限](https://home.lushisang.com/life/家园观/)，因为无限带来不确定性和高沟通处理成本等。
+
+所以可以考虑设计一种用户体验架构，所有内容都是受限的，无限的东西只是在外链里单独列出。
+
+1. 万物皆卡盒。在表现上，2D 的就是卡片形式，3D 的就是盒子形式，合起来叫卡盒架构。
+2. 卡盒架构的基本组件单元，可以叫Unit、Cell、Card、Box等。长宽高都为1，然后可以组合成更大的组件。
+3. 一站式一览型，专注于归纳聚焦。为了更易观察、理解、归纳、聚焦与使用，组件之间不会有交融，而是占据独立空间。可以一站式提供全部，可以一览全部卡盒。
+4. 所有组件都是可视化界面与相关数据逻辑的整合体，不可分离。界面可缩减但不可没有。
+5. 卡盒架构总体上是比较轻量的，构建于现有技术（比如 React、微前端、数据同步等）之上的薄薄一层抽象，所以可以更好地融合于现有应用。
+
+
+import { LinkButton } from '@astrojs/starlight/components';
+
+<LinkButton
+  href="https://lab.lushisang.com/posts/20240725-card-box/"
+  icon="external"
+  style="color: white"
+>原文链接</LinkButton>
