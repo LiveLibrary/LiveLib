@@ -5,6 +5,7 @@ import starlightThemeFlexoki from "starlight-theme-flexoki";
 import starlightBlog from "starlight-blog";
 import starlightUtils from "@lorenzo_lewis/starlight-utils";
 import starlightLinksValidator from "starlight-links-validator";
+import vue from "@astrojs/vue";
 
 // https://astro.build/config
 export default defineConfig({
@@ -27,19 +28,23 @@ export default defineConfig({
       sidebar: [
         {
           label: "主体",
-          autogenerate: { directory: "main" },
+          autogenerate: { directory: "1-lib" },
         },
         {
           label: "数据细胞",
-          autogenerate: { directory: "cell" },
+          autogenerate: { directory: "2-cell" },
         },
         {
           label: "范式",
-          autogenerate: { directory: "paradigms" },
+          autogenerate: { directory: "3-paradigms" },
         },
         {
           label: "日志",
-          autogenerate: { directory: "log" },
+          autogenerate: { directory: "4-log" },
+        },
+        {
+          label: "测试",
+          autogenerate: { directory: "test" },
         },
       ],
       social: [
@@ -56,5 +61,6 @@ export default defineConfig({
         starlightLinksValidator(),
       ],
     }),
+    vue(),
   ],
 });

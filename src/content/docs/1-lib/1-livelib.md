@@ -4,7 +4,7 @@ publishDate: 2024-08-05
 updatedDate: 2025-06-05
 ---
 
-把之前的逍遥游、AI 智能萌宠、数字人、数码体验等想法整合一下，加上笔记、博客等，就是传说中的大杂烩[【🌸数字花园】](/main/3-digital-garden)。
+把之前的逍遥游、AI 智能萌宠、数字人、数码体验等想法整合一下，加上笔记、博客等，就是传说中的大杂烩[【🌸数字花园】](/1-lib/3-digital-garden)。
 
 我的数字花园可以暂时叫【🧚‍♂️逍遥书院📚】（一开始叫【三猫书屋】，模仿【三味书屋】）。
 
@@ -12,7 +12,7 @@ updatedDate: 2025-06-05
 
 我的【🧚‍♂️逍遥书院📚】数字花园总体目标：**多功能流式数字家园与管理中心**。
 
-[**总体架构：逍遥机**](/main/2-architecture)。可编程自动流式系统架构。
+[**总体架构：逍遥机**](/1-lib/2-architecture)。可编程自动流式系统架构。
 
 **核心功能：逍遥心**。一站式可定制个人数据管理系统：
 
@@ -31,12 +31,12 @@ updatedDate: 2025-06-05
 
 还包括一些范式：
 
-1. 范式1：[【😻清澄猫CCCat】](/paradigms/1-cccat)。
-2. 范式2：[【🐼慢熊猫EasePanda】](/paradigms/2-easepanda)。
-3. 范式3：[【🐈缘形猫ShapeCat】](/paradigms/3-shapecat)。
-4. 范式4：[【🍑桃熊猫PeachPanda】](/paradigms/4-peachpanda)。
-<!-- 5. 范式5：[【🐣鼓励鸡PepChick】](/paradigms/5-pepchick)。专注鼓励的范式。
-6. 范式6：[【🌸梦幻桃源】](/paradigms/6-dream-xanadu)。梦幻游戏开发。 -->
+1. 范式1：[【😻清澄猫CCCat】](/3-paradigms/1-cccat)。
+2. 范式2：[【🐼慢熊猫EasePanda】](/3-paradigms/2-easepanda)。
+3. 范式3：[【🐈缘形猫ShapeCat】](/3-paradigms/3-shapecat)。
+4. 范式4：[【🍑桃熊猫PeachPanda】](/3-paradigms/4-peachpanda)。
+<!-- 5. 范式5：[【🐣鼓励鸡PepChick】](/3-paradigms/5-pepchick)。专注鼓励的范式。
+6. 范式6：[【🌸梦幻桃源】](/3-paradigms/6-dream-xanadu)。梦幻游戏开发。 -->
 
 可以模仿苹果公司，固定每年出新一代，比如【🧚‍♂️逍遥书院📚2025】、【🧚‍♂️逍遥书院📚2026】等。至于每年新增功能和改进，则看情况决定。
 

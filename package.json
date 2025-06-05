@@ -14,13 +14,21 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/starlight": "^0.34.3",
+    "@astrojs/vue": "^5.1.0",
     "@lorenzo_lewis/starlight-utils": "^0.3.2",
+    "@radix-ui/colors": "^3.0.0",
     "astro": "^5.8.1",
+    "reka-ui": "^2.3.0",
     "sharp": "^0.34.2",
     "starlight-blog": "^0.23.2",
     "starlight-links-validator": "^0.16.0",
     "starlight-theme-flexoki": "^0.1.0",
     "taze": "^19.1.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vue": "^3.5.16",
+    "vuetify": "^3.8.8"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^5.0.0"
   }
 }
