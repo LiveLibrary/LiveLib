@@ -15,25 +15,19 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      plugins: [
-        starlightThemeFlexoki(),
-        starlightBlog(),
-        starlightUtils(),
-        starlightLinksValidator(),
-      ],
       title: "🧚‍♂️逍遥书院📚",
       lastUpdated: true,
-      social: [
-        {
-          icon: "github",
-          label: "GitHub",
-          href: "https://github.com/andyluss/lib",
+      defaultLocale: "zh-CN",
+      locales: {
+        root: {
+          label: "简体中文",
+          lang: "zh-CN",
         },
-      ],
+      },
       sidebar: [
         {
-          label: "逍遥猫项目",
-          autogenerate: { directory: "livecat" },
+          label: "主体",
+          autogenerate: { directory: "main" },
         },
         {
           label: "数据细胞",
@@ -43,6 +37,23 @@ export default defineConfig({
           label: "范式",
           autogenerate: { directory: "paradigms" },
         },
+        {
+          label: "日志",
+          autogenerate: { directory: "log" },
+        },
+      ],
+      social: [
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/andyluss/lib",
+        },
+      ],
+      plugins: [
+        starlightThemeFlexoki(),
+        starlightBlog(),
+        starlightUtils(),
+        starlightLinksValidator(),
       ],
     }),
   ],
