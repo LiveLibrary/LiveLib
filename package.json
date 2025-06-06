@@ -18,6 +18,8 @@
     "@lorenzo_lewis/starlight-utils": "^0.3.2",
     "@radix-ui/colors": "^3.0.0",
     "astro": "^5.8.1",
+    "astro-live-code": "^0.0.6",
+    "grid-layout-plus": "^1.1.0",
     "reka-ui": "^2.3.0",
     "sharp": "^0.34.2",
     "starlight-blog": "^0.23.2",

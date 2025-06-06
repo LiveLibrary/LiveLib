@@ -6,6 +6,7 @@ import starlightBlog from "starlight-blog";
 import starlightUtils from "@lorenzo_lewis/starlight-utils";
 import starlightLinksValidator from "starlight-links-validator";
 import vue from "@astrojs/vue";
+import liveCode from "astro-live-code";
 
 // https://astro.build/config
 export default defineConfig({
@@ -62,5 +63,12 @@ export default defineConfig({
       ],
     }),
     vue(),
+    liveCode({
+      defaultProps: {
+        theme: "dark",
+        // apply client directives to all components
+        "client:load": true,
+      },
+    }),
   ],
 });
