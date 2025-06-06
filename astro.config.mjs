@@ -36,15 +36,15 @@ export default defineConfig({
         },
         {
           label: "范式",
-          autogenerate: { directory: "3-paradigms" },
+          autogenerate: { directory: "3-paradigm" },
         },
         {
           label: "日志",
           autogenerate: { directory: "4-log" },
         },
         {
-          label: "测试",
-          autogenerate: { directory: "test" },
+          label: "演示",
+          autogenerate: { directory: "demo" },
         },
       ],
       social: [
