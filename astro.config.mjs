@@ -19,7 +19,6 @@ export default defineConfig({
     starlight({
       title: "🧚‍♂️逍遥书院📚",
       lastUpdated: true,
-      defaultLocale: "zh-CN",
       locales: {
         root: {
           label: "简体中文",
@@ -28,23 +27,23 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "主体",
+          label: "🧚‍♂️逍遥书院📚",
           autogenerate: { directory: "1-lib" },
         },
         {
-          label: "数据细胞",
+          label: "🪺数据细胞",
           autogenerate: { directory: "2-cell" },
         },
         {
-          label: "范式",
+          label: "✅范式",
           autogenerate: { directory: "3-paradigm" },
         },
+        // {
+        //   label: "📝日志",
+        //   autogenerate: { directory: "4-log" },
+        // },
         {
-          label: "日志",
-          autogenerate: { directory: "4-log" },
-        },
-        {
-          label: "演示",
+          label: "🖼️演示",
           autogenerate: { directory: "demo" },
         },
       ],
@@ -57,7 +56,16 @@ export default defineConfig({
       ],
       plugins: [
         starlightThemeFlexoki(),
-        starlightBlog(),
+        starlightBlog({
+          authors: {
+            livecat: {
+              name: "逍遥猫",
+              title: "逍遥书院院长",
+              picture: "/images/catlu200.png", // Images in the `public` directory are supported.
+              url: "https://lushisang.com",
+            },
+          },
+        }),
         starlightUtils(),
         starlightLinksValidator(),
       ],
