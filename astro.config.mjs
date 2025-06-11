@@ -19,6 +19,9 @@ export default defineConfig({
     starlight({
       title: "🧚‍♂️逍遥书院📚",
       lastUpdated: true,
+      editLink: {
+        baseUrl: "https://github.com/LiveLibrary/LiveLibrary/edit/main/",
+      },
       locales: {
         root: {
           label: "简体中文",
@@ -51,7 +54,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/andyluss/lib",
+          href: "https://github.com/LiveLibrary/LiveLibrary",
         },
       ],
       plugins: [
