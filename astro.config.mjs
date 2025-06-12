@@ -41,10 +41,10 @@ export default defineConfig({
           label: "✅范式",
           autogenerate: { directory: "3-paradigm" },
         },
-        // {
-        //   label: "📝日志",
-        //   autogenerate: { directory: "4-log" },
-        // },
+        {
+          label: "📄文章",
+          autogenerate: { directory: "articles" },
+        },
         {
           label: "🖼️演示",
           autogenerate: { directory: "demo" },
