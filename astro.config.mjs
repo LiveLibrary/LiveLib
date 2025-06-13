@@ -34,8 +34,21 @@ export default defineConfig({
           autogenerate: { directory: "1-lib" },
         },
         {
-          label: "👩‍🌾桑田",
-          autogenerate: { directory: "2-farm" },
+          label: "📈数据故事🧚",
+          items: [
+            {
+              label: "👩‍🌾桑田",
+              autogenerate: { directory: "2-data-story/1-farm" },
+            },
+            {
+              label: "👷‍♀️工厂",
+              autogenerate: { directory: "2-data-story/3-factory" },
+            },
+            {
+              label: "🧑‍💻数码元宇宙",
+              autogenerate: { directory: "2-data-story/3-metaverse" },
+            },
+          ],
         },
         {
           label: "✅范式",
@@ -58,7 +71,7 @@ export default defineConfig({
         starlightBlog({
           authors: {
             livecat: {
-              name: "逍遥猫",
+              name: "逍遥猫闲人",
               title: "逍遥书院院长",
               picture: "/images/catlu200.png", // Images in the `public` directory are supported.
               url: "https://lushisang.com",
