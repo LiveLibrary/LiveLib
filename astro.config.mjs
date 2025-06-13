@@ -30,12 +30,12 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "🧚‍♂️逍遥书院📚",
+          label: "📚总览",
           autogenerate: { directory: "1-lib" },
         },
         {
-          label: "🪺数据细胞",
-          autogenerate: { directory: "2-cell" },
+          label: "👩‍🌾桑田",
+          autogenerate: { directory: "2-farm" },
         },
         {
           label: "✅范式",
@@ -44,10 +44,6 @@ export default defineConfig({
         {
           label: "📄文章",
           autogenerate: { directory: "articles" },
-        },
-        {
-          label: "🖼️演示",
-          autogenerate: { directory: "demo" },
         },
       ],
       social: [
