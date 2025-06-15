@@ -34,19 +34,23 @@ export default defineConfig({
           autogenerate: { directory: "1-lib" },
         },
         {
-          label: "📈数据故事🧚",
+          label: "📈价值故事🧚",
           items: [
             {
-              label: "👩‍🌾桑田数据",
-              autogenerate: { directory: "2-data-story/1-farm" },
+              label: "💽数据🧑‍💻",
+              autogenerate: { directory: "2-value/0-data" },
             },
             {
-              label: "👷‍♀️工厂数据",
-              autogenerate: { directory: "2-data-story/3-factory" },
+              label: "🍇桑田👩‍🌾",
+              autogenerate: { directory: "2-value/1-farm" },
             },
             {
-              label: "🧑‍💻数码元宇宙",
-              autogenerate: { directory: "2-data-story/3-metaverse" },
+              label: "🏭工厂🧑‍🏭",
+              autogenerate: { directory: "2-value/2-factory" },
+            },
+            {
+              label: "🪐数码元宇宙🧑‍🎤",
+              autogenerate: { directory: "2-value/3-metaverse" },
             },
           ],
         },
