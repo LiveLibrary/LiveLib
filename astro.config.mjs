@@ -37,11 +37,11 @@ export default defineConfig({
           label: "📈数据故事🧚",
           items: [
             {
-              label: "👩‍🌾桑田",
+              label: "👩‍🌾桑田数据",
               autogenerate: { directory: "2-data-story/1-farm" },
             },
             {
-              label: "👷‍♀️工厂",
+              label: "👷‍♀️工厂数据",
               autogenerate: { directory: "2-data-story/3-factory" },
             },
             {
