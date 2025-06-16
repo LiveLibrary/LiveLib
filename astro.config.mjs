@@ -75,7 +75,7 @@ export default defineConfig({
         starlightBlog({
           authors: {
             livecat: {
-              name: "逍遥猫闲人",
+              name: "逍遥闲人",
               title: "逍遥书院院长",
               picture: "/images/catlu200.png", // Images in the `public` directory are supported.
               url: "https://lushisang.com",

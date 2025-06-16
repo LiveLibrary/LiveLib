@@ -1,16 +1,30 @@
 ---
 title: 【🧚‍♂️逍遥书院📚】开发日志
 date: 2025-06-05
-lastUpdated: 2025-06-13
+lastUpdated: 2025-06-16
 tags: [📅日志]
-featured: true
+---
+
+### 20250616 周一
+
+#### 总体事宜
+
+1. 【变更】：项目日志合并回【🐈逍遥猫】的项目日志。总的来说，现阶段精力不足，还是坚持单项目为好，也就是【🐈逍遥猫】项目，其它都是子项目或子任务。
+2. 【变更】：GitHub 组织 `Live-Library` 改名为 `LiveCatXY`，并把 `andyluss` 下的两个相关库（Lab、Hub）改名（添加 Live 前缀）并迁移过去。
+
+#### 程序开发
+
+1. 【研究】：研究 Reka、NuxtUI、TailwindCSS 等 UI 库。
+2. 【研究】：研究 Bento 风格的 Astro 主题。
+
 ---
 
 ### 20250615 周日
 
 #### 程序开发
 
-1. 【研究】：研究 Reka 等 UI 库。
+1. 【研究】：研究 Reka、NuxtUI、TailwindCSS 等 UI 库。
+2. 【研究】：研究 Bento 风格的 Astro 主题。
 
 ---
 
@@ -18,7 +32,7 @@ featured: true
 
 #### 程序开发
 
-1. 【研究】：研究 Reka 等 UI 库。
+1. 【研究】：研究 Reka、NuxtUI、TailwindCSS 等 UI 库。
 
 ---
 
@@ -26,7 +40,7 @@ featured: true
 
 #### 程序开发
 
-1. 【研究】：研究 Reka、NuxtUI 组件库。
+1. 【研究】：研究 Reka、NuxtUI、TailwindCSS 组件库。
 
 ---
 
