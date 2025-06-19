@@ -35,24 +35,7 @@ export default defineConfig({
         },
         {
           label: "📈价值故事🧚",
-          items: [
-            {
-              label: "💽数据🧑‍💻",
-              autogenerate: { directory: "2-value/0-data" },
-            },
-            {
-              label: "🍇桑田👩‍🌾",
-              autogenerate: { directory: "2-value/1-farm" },
-            },
-            {
-              label: "🏭工厂🧑‍🏭",
-              autogenerate: { directory: "2-value/2-factory" },
-            },
-            {
-              label: "🪐数码元宇宙🧑‍🎤",
-              autogenerate: { directory: "2-value/3-metaverse" },
-            },
-          ],
+          autogenerate: { directory: "2-value" },
         },
         {
           label: "✅范式",
