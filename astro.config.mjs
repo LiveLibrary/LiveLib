@@ -32,11 +32,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "📚总览",
-					autogenerate: { directory: "1-lib" },
+					autogenerate: { directory: "1-livelib" },
 				},
 				{
 					label: "📈价值故事🧚",
-					autogenerate: { directory: "2-value" },
+					autogenerate: { directory: "2-livevalue" },
 				},
 				{
 					label: "✅范式",
