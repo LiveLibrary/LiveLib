@@ -21,7 +21,7 @@ export default defineConfig({
 			title: "🧚‍♂️逍遥书院📚",
 			// lastUpdated: true,
 			editLink: {
-				baseUrl: "https://github.com/LiveLibrary/LiveLibrary/edit/main/",
+				baseUrl: "https://github.com/LiveCatXY/LiveLib/edit/main/",
 			},
 			locales: {
 				root: {
@@ -32,11 +32,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "📚总览",
-					autogenerate: { directory: "1-livelib" },
+					autogenerate: { directory: "1-lib" },
 				},
 				{
-					label: "📈价值故事🧚",
-					autogenerate: { directory: "2-livevalue" },
+					label: "📈价值",
+					autogenerate: { directory: "2-value" },
 				},
 				{
 					label: "✅范式",
@@ -51,7 +51,7 @@ export default defineConfig({
 				{
 					icon: "github",
 					label: "GitHub",
-					href: "https://github.com/LiveLibrary/LiveLibrary",
+					href: "https://github.com/LiveCatXY/LiveLib",
 				},
 			],
 			plugins: [
