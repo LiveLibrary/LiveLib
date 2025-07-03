@@ -1,40 +1,40 @@
 {
-  "name": "lib",
-  "type": "module",
-  "version": "0.0.1",
-  "packageManager": "pnpm@10.12.2+sha512.a32540185b964ee30bb4e979e405adc6af59226b438ee4cc19f9e8773667a66d302f5bfee60a39d3cac69e35e4b96e708a71dd002b7e9359c4112a1722ac323f",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "up": "npx taze major -I"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/starlight": "^0.34.4",
-    "@astrojs/vue": "^5.1.0",
-    "@convex-vue/core": "^0.0.4",
-    "@lorenzo_lewis/starlight-utils": "^0.3.2",
-    "@radix-ui/colors": "^3.0.0",
-    "@vueuse/core": "^13.3.0",
-    "astro": "^5.10.1",
-    "astro-live-code": "^0.0.6",
-    "convex": "^1.24.8",
-    "grid-layout-plus": "^1.1.0",
-    "reka-ui": "^2.3.1",
-    "sharp": "^0.34.2",
-    "starlight-blog": "^0.24.0",
-    "starlight-links-validator": "^0.16.0",
-    "starlight-theme-flexoki": "^0.1.0",
-    "taze": "^19.1.0",
-    "typescript": "^5.8.3",
-    "vue": "^3.5.16",
-    "vuetify": "^3.8.9"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.0.5",
-    "@iconify/vue": "^5.0.0"
-  }
+	"name": "lib",
+	"type": "module",
+	"version": "0.0.1",
+	"packageManager": "pnpm@10.12.2+sha512.a32540185b964ee30bb4e979e405adc6af59226b438ee4cc19f9e8773667a66d302f5bfee60a39d3cac69e35e4b96e708a71dd002b7e9359c4112a1722ac323f",
+	"scripts": {
+		"dev": "astro dev --port 4323",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"up": "npx taze major -I"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.4",
+		"@astrojs/starlight": "^0.34.4",
+		"@astrojs/vue": "^5.1.0",
+		"@convex-vue/core": "^0.0.4",
+		"@lorenzo_lewis/starlight-utils": "^0.3.2",
+		"@radix-ui/colors": "^3.0.0",
+		"@vueuse/core": "^13.3.0",
+		"astro": "^5.10.1",
+		"astro-live-code": "^0.0.6",
+		"convex": "^1.24.8",
+		"grid-layout-plus": "^1.1.0",
+		"reka-ui": "^2.3.1",
+		"sharp": "^0.34.2",
+		"starlight-blog": "^0.24.0",
+		"starlight-links-validator": "^0.16.0",
+		"starlight-theme-flexoki": "^0.1.0",
+		"taze": "^19.1.0",
+		"typescript": "^5.8.3",
+		"vue": "^3.5.16",
+		"vuetify": "^3.8.9"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.5",
+		"@iconify/vue": "^5.0.0"
+	}
 }
