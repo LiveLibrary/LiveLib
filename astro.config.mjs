@@ -32,15 +32,34 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "📚总览",
-					autogenerate: { directory: "1-lib" },
+					items: [
+						"lib/livelib",
+						"lib/dikw",
+						"lib/architecture",
+						"lib/digital-garden",
+						"lib/data-cell",
+					],
 				},
 				{
 					label: "📈价值",
-					autogenerate: { directory: "2-value" },
+					items: [
+						"value/livefab",
+						"value/livebay",
+						"value/fav",
+						"value/sharewaves",
+						"value/health",
+						"value/safety",
+						"value/agriculture",
+					],
 				},
 				{
 					label: "✅范式",
-					autogenerate: { directory: "3-paradigm" },
+					items: [
+						"paradigm/cccat",
+						"paradigm/easepanda",
+						"paradigm/shapecat",
+						"paradigm/peachpanda",
+					],
 				},
 				{
 					label: "📄文章",
